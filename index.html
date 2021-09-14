@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="inputContainer">
+		<form id="sendForm" action="transfer.php" method="POST">
+			<h2>Create your transfer</h2>
+			<p>
+				<label for="acountId">Your account</label>
+				<input id="accountId" name="accountId" type="text" placeholder="alyvethedefiant.near" required>
+			</p>
+            <p>
+				<label for="sendTo">Account to send to</label>
+				<input id="sendTo" name="sendTo" type="text" placeholder="alyvethedefiant.near" required>
+			</p>
+			<p>
+				<label for="tipAmount">Tip Amount</label>
+				<input id="tipAmount" name="tipAmount" type="num" placeholder="1000" required>
+			</p>
+
+			<button type="submit" name="transferButton">Transfer</button>
+        </form>
+    </div>
+
+
+
+
+
+</body>
+</html>
