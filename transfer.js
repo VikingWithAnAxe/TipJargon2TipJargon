@@ -1,0 +1,1 @@
+//This is where we will create TipJargon transfers in JS
