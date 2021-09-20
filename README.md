@@ -5,5 +5,5 @@ Making a simple web app to do a transfer of TipJargon
 
 1. Enter users acountId
 2. Enter amount
-3. enter sendTo Id
+3. login with near
 4. make transfer
